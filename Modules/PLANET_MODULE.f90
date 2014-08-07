@@ -171,7 +171,7 @@ MODULE planet
 
   !!! Target
   IF ( Targ == 'H' ) THEN
-		write(*,*) 'ttarg', trim(targ), '-H'
+!		write(*,*) 'ttarg', trim(targ), '-H'
 		MT = M_H
   ELSE IF ( Targ == 'H2 ' ) THEN
 		MT = M_H2
